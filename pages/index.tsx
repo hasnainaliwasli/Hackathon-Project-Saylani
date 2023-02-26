@@ -1,11 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import SignIn from '@/pages/SignIn'
 import LandingPage from '@/components/LandingPage'
-import SignUp from '../components/Register'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -20,7 +16,7 @@ export default function Home() {
 
 <LandingPage/>
 
-{/* <SignUp/> */}
+
 
     </>
   )
